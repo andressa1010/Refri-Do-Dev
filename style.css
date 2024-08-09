@@ -87,3 +87,53 @@
 .item.active .title{
     animation: toActive 0.5s ease-in-out 1;
 }
+
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .item .title {
+        font-size: 6rem;
+    }
+
+    #prev, #next {
+        width: 40px;
+        height: 40px;
+        font-size: large;
+    }
+}
+
+@media (max-width: 768px) {
+    .item .title {
+        font-size: 4rem;
+    }
+
+    .item .refri {
+        width: 70%;
+    }
+
+    #prev, #next {
+        width: 30px;
+        height: 30px;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    .item .title {
+        font-size: 3rem;
+    }
+
+    .item .refri {
+        width: 60%;
+    }
+
+    .item .fruit {
+        width: 80%;
+    }
+
+    #prev, #next {
+        width: 25px;
+        height: 25px;
+        font-size: small;
+    }
+}
